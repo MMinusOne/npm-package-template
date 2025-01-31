@@ -1,7 +1,7 @@
 {
-  "name": "package-name",
+  "name": "node-quant",
   "version": "0.0.1",
-  "description": "Starter app",
+  "description": "Node-Quant is a powerful Node.js package for developing and testing quantitative trading strategies in cryptocurrency markets, offering tools for backtesting and performance analysis.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MMinusOne/npm-package-template.git"
+    "url": "https://github.com/MMinusOne/Node-Quant.git"
   },
   "author": "MMinusOne",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MMinusOne/npm-package-template/issues"
+    "url": "https://github.com/MMinusOne/Node-Quant/issues"
   },
   "keywords": [],
-  "homepage": "https://github.com/MMinusOne/npm-package-template#readme",
+  "homepage": "https://github.com/MMinusOne/Node-Quant#readme",
   "devDependencies": {
     "tsup": "^8.3.6",
     "typescript": "^5.7.3"
