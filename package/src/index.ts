@@ -1,3 +1,3 @@
 export default function () {
-  console.log("Hello World!");
+  console.log("Template NPM App");
 }
