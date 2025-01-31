@@ -7,10 +7,10 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "lint": "",
+    "lint": "tsc && tsup --dts",
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "update-package": "",
-    "publish": ""
+    "publish": "npm run publish",
+    "update-package": "npm run build && npm run publish"
   },
   "repository": {
     "type": "git",
